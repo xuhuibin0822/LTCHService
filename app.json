@@ -1,6 +1,8 @@
 {
   "pages": [
-    "pages/login/login"
+    "pages/index/index",
+    "pages/login/login",
+    "pages/mine/mine"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -9,17 +11,13 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/logs/logs",
-        "text": "日志"
-      }
-    ],
-    "color": "#000",
-    "selectedColor": "#933"
+    "selectedColor": "#759372",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "home"
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "mine"
+    }]
   }
 }

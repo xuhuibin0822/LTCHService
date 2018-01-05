@@ -1,10 +1,12 @@
 <!--pages/login/login.wxml-->
-<view class='content-center'>
-  <image src=''></image>
-  <text>龙腾沧海-客服端</text>
-</view>
 <view>
-  <input type='tel' placeholder='手机号码'></input>
-  <input type='password' placeholder='密码'></input>
-  <button>登录</button>
+  <view class='content-center'>
+    <image src=''></image>
+    <text>龙腾沧海-客服端</text>
+  </view>
+  <view>
+    <input type='phone' placeholder='手机号码' value='{{account}}'></input>
+    <input type='password' placeholder='密码'></input>
+    <button bindtap='login'>登录</button>
+  </view>
 </view>
