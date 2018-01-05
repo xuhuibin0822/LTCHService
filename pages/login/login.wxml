@@ -5,8 +5,8 @@
     <text>龙腾沧海-客服端</text>
   </view>
   <view>
-    <input type='phone' placeholder='手机号码' value='{{account}}'></input>
-    <input type='password' placeholder='密码'></input>
+    <input bindinput='inputAccount' type='number' placeholder='手机号码' value='{{account}}'></input>
+    <input bindinput='inputPassword' type='password' placeholder='密码' value='{{password}}'></input>
     <button bindtap='login'>登录</button>
   </view>
 </view>

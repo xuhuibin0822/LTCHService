@@ -1,1 +1,6 @@
 /* pages/mine/mine.wxss */
+.my-info {padding: 30rpx 50rpx; text-align: center; border-bottom: #666 1px solid}
+.my-info text:first-child {float: left;}
+.my-info text:last-child {float: right;}
+
+.my-menus {margin-top: 20rpx}

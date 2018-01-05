@@ -1,0 +1,6 @@
+<template name="serviceItem">
+  <view>
+    <text>{{item.name}}</text>
+    <text>派单时间:{{item.date}}</text>
+  </view>
+</template>

@@ -1,4 +1,5 @@
 <!--index.wxml-->
-<view class="container">
-  
-</view>
+<import src="../template/item"/>
+<block wx:for="{{lists}}" wx:key="*this">
+  <template is="serviceItem" data="{{item}}"/>
+</block>

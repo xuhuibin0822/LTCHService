@@ -1,2 +1,11 @@
 <!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view>
+  <view class='my-info'>
+    <text>姓名</text>
+    <text>手机号</text>
+    <text>地址</text>
+  </view>
+  <view class='my-menus'>
+    <button catchtap='loginout'>退出</button>
+  </view>
+</view>
