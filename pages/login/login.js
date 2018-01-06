@@ -21,9 +21,13 @@ Page({
       wx.setStorageSync('account', this.data.account);
       wx.setStorageSync('password', this.data.password);
       wx.navigateBack();
+    } else if (!this.data.account) {
+      wx.showToast({
+        title: '请输入手机号',
+      });
     } else {
       wx.showToast({
-        title: '请输入手机号和密码',
+        title: '请输入密码',
       });
     }
   }

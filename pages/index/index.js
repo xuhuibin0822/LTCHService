@@ -8,9 +8,11 @@ Page({
   },
   onShow: function () {
     if (!wx.getStorageSync('account')) {
-      return wx.navigateTo({
-        url: '../login/login',
-      })
+      return setTimeout(() => {
+        wx.navigateTo({
+          url: '../login/login',
+        })
+      }, 200);
     }
   }
 })
